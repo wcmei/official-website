@@ -68,4 +68,8 @@ public class BaseUserDetails implements org.springframework.security.core.userde
         //账号是否启用
         return user.isEnabled();
     }
+
+    public com.hl.official.website.domain.User getBaseUser(){
+        return baseUser;
+    }
 }
